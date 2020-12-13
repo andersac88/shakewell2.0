@@ -3,6 +3,7 @@ const { Schema } = mongoose;
 
 const beverageSchema = new Schema({
 	barcode: String,
+	name: String,
 	shake: Boolean,
 });
 
